@@ -49,7 +49,7 @@ mvn compile exec:java
 A simulação roda diretamente pela classe `Main`, que monta o cenário inicial (Jill Valentine, armas, itens, inimigos e localizações) e executa uma sequência de eventos de exemplo: combate, cura, exploração e uso de item-chave.
 
 ## Estrutura do repositório
-
+![Diagrama de classes](images/re3.png)
 projeto/
 ├── pom.xml
 ├── png/
