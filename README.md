@@ -49,7 +49,7 @@ mvn compile exec:java
 A simulação roda diretamente pela classe `Main`, que monta o cenário inicial (Jill Valentine, armas, itens, inimigos e localizações) e executa uma sequência de eventos de exemplo: combate, cura, exploração e uso de item-chave.
 
 ## Estrutura do repositório
-![Diagrama de classes](images/re3.png)
+
 projeto/
 ├── pom.xml
 ├── png/
@@ -69,9 +69,8 @@ projeto/
     └── GameEvent.java / CombatEvent.java / ExploreEvent.java / BossEvent.java
 
 ## Diagramas
-
+![Diagrama de classes](images/re3.png)
 O diagrama de classes completo (UML) está disponível em `re3.png`, e o fluxo do padrão Observer em `png/observer_pattern_diagram.png`.
 
----
 
 Projeto desenvolvido para fins didáticos, sem qualquer vínculo oficial com a Capcom ou a franquia Resident Evil.
