@@ -1,4 +1,5 @@
-# Resident Evil 3 
+# Resident Evil 3 — Simulador em Java
+
 Projeto acadêmico desenvolvido para a disciplina de Programação Orientada a Objetos (ECOT02 — UNIFEI), utilizando o universo de *Resident Evil 3* como cenário para aplicar conceitos de POO e padrões de projeto na prática.
 
 O programa simula uma sequência de combate, exploração e uso de itens envolvendo a personagem Jill Valentine, enfrentando inimigos icônicos da franquia como Zumbis, Hunters e o Nemesis.
@@ -43,10 +44,34 @@ O programa simula uma sequência de combate, exploração e uso de itens envolve
 
 Pré-requisitos: Java 17+ e Maven instalados.
 
-```bash
 mvn compile exec:java
-```
 
 A simulação roda diretamente pela classe `Main`, que monta o cenário inicial (Jill Valentine, armas, itens, inimigos e localizações) e executa uma sequência de eventos de exemplo: combate, cura, exploração e uso de item-chave.
 
 ## Estrutura do repositório
+
+projeto/
+├── pom.xml
+├── png/
+│   └── observer_pattern_diagram.png
+├── re3.png                # Diagrama de classes (UML)
+└── src/main/java/re3/
+    ├── Main.java
+    ├── GameManager.java
+    ├── GameObserver.java
+    ├── HUD.java
+    ├── Character.java
+    ├── Survivor.java
+    ├── Enemy.java / Zombie.java / Hunter.java / Nemesis.java
+    ├── Item.java / Weapon.java / Ammo.java / HealingItem.java / KeyItem.java
+    ├── Inventory.java
+    ├── Location.java
+    └── GameEvent.java / CombatEvent.java / ExploreEvent.java / BossEvent.java
+
+## Diagramas
+
+O diagrama de classes completo (UML) está disponível em `re3.png`, e o fluxo do padrão Observer em `png/observer_pattern_diagram.png`.
+
+---
+
+Projeto desenvolvido para fins didáticos, sem qualquer vínculo oficial com a Capcom ou a franquia Resident Evil.
