@@ -1,5 +1,4 @@
-# Resident Evil 3 — Simulador em Java
-
+# Resident Evil 3 
 Projeto acadêmico desenvolvido para a disciplina de Programação Orientada a Objetos (ECOT02 — UNIFEI), utilizando o universo de *Resident Evil 3* como cenário para aplicar conceitos de POO e padrões de projeto na prática.
 
 O programa simula uma sequência de combate, exploração e uso de itens envolvendo a personagem Jill Valentine, enfrentando inimigos icônicos da franquia como Zumbis, Hunters e o Nemesis.
